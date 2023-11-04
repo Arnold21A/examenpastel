@@ -1,0 +1,392 @@
+*
+{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    
+    background: #ffffff;
+  /*  background: #082b4b;*/
+
+
+}
+
+
+
+/*  texto animado */
+
+.contenedor-header
+{  
+    width: 100%;
+    margin: 0;
+    height: 70px;
+    background: linear-gradient( 25deg, #006eff, #00ccff);
+    position: fixed;
+  
+}
+
+
+/*  reloj en tiempo real */
+.cont-reloj
+{
+   color: rgb(255, 255, 255);
+   padding: 10px 0px;
+   width: 210px ;
+   float: right;
+   letter-spacing: 2px;
+   
+
+}
+.texto{
+    width: 380px;
+height: 40px;
+color: rgb(255, 255, 255);
+font-size: 25px;
+line-height: 40px;
+display: flex;
+float: left;
+position: absolute;
+overflow: hidden;
+letter-spacing: 2px;
+margin: 10px 90px;
+}
+
+
+
+
+.reloj
+{
+    font-size: 25px;
+}
+
+.datos
+{
+    text-align: right;
+    width: 200px;
+    display: flex;
+}
+
+.contenedor-header  .santisimo
+ {
+        float:left;
+        height: 50px;
+        width:  70px;
+        margin: 7px 25px 0px 5px ;
+        padding: 0;
+ }
+
+
+.contenedor-header  img
+{
+    float: right;
+    height: 30px;
+    width:  30px;
+    cursor: pointer;
+    margin: 15px 20px 0px  0px;
+    padding: 0;
+ }
+
+
+
+                            /*    Menu despegable */
+                            .menu
+                            {
+                            width: 100%;
+                            margin-top: 4rem;
+                             position: fixed;
+                            }
+                            nav ul{
+                             background: linear-gradient( 25deg, #00ffaa, #00ccff);
+                            /*background: #05817d;*/
+                            list-style: none;
+                            display: -webkit-flex;
+                            display: -moz-flex;
+                            display: -ms-flex;
+                            display: -o-flex;
+                            display: flex;
+                            justify-content: left;
+                            align-items: center;
+                                                                      
+                            }
+                            nav ul > li a{
+                            position: relative;
+                            }
+                            nav a{
+                            color: rgb(0, 0, 0);
+                            display: block;
+                            font-size: 17px;
+                            font-family: 'GothamBook';
+                            padding: 15px 30px;
+                            text-transform: uppercase;
+                            letter-spacing: 2px;
+                            transition: background .5s;
+                            border-right: 1px solid #00ffaa;
+                             letter-spacing: 2px;
+                             margin: 0 25px;
+                            text-decoration: none;                                    
+                            }
+                            nav .principal > a{
+                            background: url(../images/arrow_bottom.png) no-repeat;
+                            background-position-x: 0%;
+                            background-position-y: 0%;
+                            background-size: auto auto;
+                            background-position: 94% center;
+                            background-size: 10px;
+                            }
+                            nav ul li:hover ul{
+                            display: block;
+                            }
+                            nav li ul{
+                            /*background: #177470;*/
+                             background: #00ffaa;
+                            display: none;
+                            flex-direction: column;
+                            position: absolute;
+                            align-items: flex-start;
+                            border-radius: 0 0 10px 10px;
+                            }
+                            nav li ul a{
+                            position: relative;
+                             padding: 10px 30px;
+                             border-right: initial;
+                            }
+                            nav li ul a:hover{
+                             /*background: #2c9595;*/
+                             background: #12d896b4;
+                            color: #000000;
+                            }
+                            nav li ul li:last-child{
+                            border-radius: 0 0 10px 10px;
+                            overflow: hidden;
+                            }            
+                           
+/* slider */
+
+
+
+h1
+{
+    font-size: 25px;
+    margin: 220px 20px  ;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    float: left;
+    align-items: center;
+    text-align: center;
+}
+
+.data_delete
+{
+    margin-top: 19rem;
+}
+.data_delete h2
+{
+    margin: auto;
+    font-size: 24px;
+}
+.data_delete p
+{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.data_delete span
+{
+    margin:  0  20px;
+}
+.btn__registro--input
+{
+    width: auto;
+    cursor: pointer;
+   font-size: 18px;
+    background: #12d896b4;
+    border: none;
+    padding: 10px 30px ;
+    margin: 30px 0;
+}
+
+.form-user a
+{
+     text-decoration: none;
+     width: 100px;
+     cursor: pointer;
+     padding: 10px 30px ;
+     font-size: 18px;
+     border: none;
+     background: #12d896b4;
+     margin: 0 20px;
+     color: #000000;
+
+}
+/* slauder */
+.container-slaider
+{
+   
+   width: 100%;
+   max-width:  720px;
+   margin: 190px 30px;
+   overflow: hidden;
+   box-shadow: 0 0 0 10px #fff,
+                0 15px 50px ;
+                float: right; 
+                
+  
+}
+
+.slider
+{
+   display: flex;
+   width: 400%;
+   height: 380px;
+   margin-left: -100%;
+   
+}
+.slider__section
+{
+    
+  width: 100%;
+}
+.slider__img
+{
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.slider__btn
+{
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    top: 50%;
+    transform: translateY(-50);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer
+    ;
+}
+
+
+.slider__btn--left
+{
+   left: 10px;
+}
+.slider__btn--right
+{
+    right: 10px;
+    
+}
+
+
+
+        /* CALENDARIO */
+
+
+        
+        .title
+        {
+            text-align: center;
+            color: #000000;
+            font-size: 25px;
+            font-family: 'Quicksand', sans-serif;
+            letter-spacing: 3px;
+            padding-top: 48rem;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+        
+        
+        
+        
+        :root {
+            --color-bg-calendar: #1b2221;
+            --color-cell: #e3e3e3;
+            --color-cell-disabled: #424649;
+        }
+        
+        .root {
+            min-height: 100vh;
+            padding: 0 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .calendar {
+            padding: 20px 10px;
+            background-color: var(--color-bg-calendar);
+            border-radius: 3px;
+            width: 100%;
+            max-width: 600px;
+            font-family: sans-serif;
+        }
+        
+        .calendar__header {
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        
+        .calendar .control {
+            color: white;
+            font-weight: bold;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0 5px;
+        }
+        
+        .grid__header, .grid__body {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+        }
+        
+        .grid__header {
+            color: white;
+            margin-bottom: 20px;
+        }
+        
+        .grid__body {
+            grid-auto-rows: 75px;
+            color: var(--color-cell);
+        }
+        
+        .grid__cell {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .grid__cell--gd {
+            cursor: pointer;
+        }
+        
+        .grid__cell--selected {
+            color: var(--color-bg-calendar);
+            background-color: white;
+            border-radius: 50%;
+            border: 2px solid white;
+            box-shadow: 0 0 0 2px var(--color-bg-calendar) inset;
+        }
+        
+        .grid__cell--disabled {
+            color: var(--color-cell-disabled);
+            cursor: not-allowed;
+        }
+        
+        
+
+/*  botones para registrarse */
+
+
+

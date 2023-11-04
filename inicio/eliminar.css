@@ -1,0 +1,212 @@
+*
+{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    
+    background: #ffffff;
+  /*  background: #082b4b;*/
+
+
+}
+
+
+
+/*  texto animado */
+
+.contenedor-header
+{  
+    width: 100%;
+    margin: 0;
+    height: 70px;
+    background: linear-gradient( 25deg, #006eff, #00ccff);
+    position: fixed;
+  
+}
+
+
+/*  reloj en tiempo real */
+.cont-reloj
+{
+   color: rgb(255, 255, 255);
+   padding: 10px 0px;
+   width: 210px ;
+   float: right;
+   letter-spacing: 2px;
+   
+
+}
+.texto{
+    width: 380px;
+height: 40px;
+color: rgb(255, 255, 255);
+font-size: 25px;
+line-height: 40px;
+display: flex;
+float: left;
+position: absolute;
+overflow: hidden;
+letter-spacing: 2px;
+margin: 10px 90px;
+}
+
+
+
+
+.reloj
+{
+    font-size: 25px;
+}
+
+.datos
+{
+    text-align: right;
+    width: 200px;
+    display: flex;
+}
+
+.contenedor-header  .santisimo
+ {
+        float:left;
+        height: 50px;
+        width:  70px;
+        margin: 7px 25px 0px 5px ;
+        padding: 0;
+ }
+
+
+.contenedor-header  img
+{
+    float: right;
+    height: 30px;
+    width:  30px;
+    cursor: pointer;
+    margin: 15px 20px 0px  0px;
+    padding: 0;
+ }
+
+
+
+                            /*    Menu despegable */
+                            .menu
+                            {
+                            width: 100%;
+                            margin-top: 4rem;
+                             position: fixed;
+                            }
+                            nav ul{
+                             background: linear-gradient( 25deg, #00ffaa, #00ccff);
+                            /*background: #05817d;*/
+                            list-style: none;
+                            display: -webkit-flex;
+                            display: -moz-flex;
+                            display: -ms-flex;
+                            display: -o-flex;
+                            display: flex;
+                            justify-content: left;
+                            align-items: center;
+                                                                      
+                            }
+                            nav ul > li a{
+                            position: relative;
+                            }
+                            nav a{
+                            color: rgb(0, 0, 0);
+                            display: block;
+                            font-size: 17px;
+                            font-family: 'GothamBook';
+                            padding: 15px 30px;
+                            text-transform: uppercase;
+                            letter-spacing: 2px;
+                            transition: background .5s;
+                            border-right: 1px solid #00ffaa;
+                             letter-spacing: 2px;
+                             margin: 0 25px;
+                            text-decoration: none;                                    
+                            }
+                            nav .principal > a{
+                            background: url(../images/arrow_bottom.png) no-repeat;
+                            background-position-x: 0%;
+                            background-position-y: 0%;
+                            background-size: auto auto;
+                            background-position: 94% center;
+                            background-size: 10px;
+                            }
+                            nav ul li:hover ul{
+                            display: block;
+                            }
+                            nav li ul{
+                            /*background: #177470;*/
+                             background: #00ffaa;
+                            display: none;
+                            flex-direction: column;
+                            position: absolute;
+                            align-items: flex-start;
+                            border-radius: 0 0 10px 10px;
+                            }
+                            nav li ul a{
+                            position: relative;
+                             padding: 10px 30px;
+                             border-right: initial;
+                            }
+                            nav li ul a:hover{
+                             /*background: #2c9595;*/
+                             background: #12d896b4;
+                            color: #000000;
+                            }
+                            nav li ul li:last-child{
+                            border-radius: 0 0 10px 10px;
+                            overflow: hidden;
+                            }            
+
+                              
+           /* estilo de eliminar usuario */
+   
+.data_delete
+{
+    margin-top: 15rem  ;
+    
+    padding: 0 110px;
+}
+.data_delete h2
+{
+    margin: auto;
+    font-size: 24px;
+}
+.data_delete p
+{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.data_delete span
+{
+    margin:  0  20px;
+}
+.btn__registro--input
+{
+    width: auto;
+    cursor: pointer;
+   font-size: 18px;
+    background: #12d896b4;
+    border: none;
+    padding: 10px 30px ;
+    margin: 30px 0;
+}
+
+.form-user a
+{
+     text-decoration: none;
+     width: 100px;
+     cursor: pointer;
+     padding: 10px 30px ;
+     font-size: 18px;
+     border: none;
+     background: #12d896b4;
+     margin: 0 20px;
+     color: #000000;
+
+}
